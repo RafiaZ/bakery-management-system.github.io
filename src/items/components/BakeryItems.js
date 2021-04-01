@@ -3,18 +3,17 @@ import "./BakeryItems.css";
 
 const BakeryItems = (props) => {
   return (
-    
+
+  
     <li className="listItems">
-      
      
-        <div className="images">
            <img src={props.image} alt={props.name}/>
-        </div>
+ 
         <div className='product-name'>
         <h1>{props.name}</h1>
         </div>
         <div className="price">
-        <h3>Rupees {props.price}</h3>
+        <h3>Price {props.price} PKR</h3>
         </div>
         
         <div className="count">
@@ -22,6 +21,7 @@ const BakeryItems = (props) => {
         </div>
 
     </li>
+
   );
 };
 

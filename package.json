@@ -28,5 +28,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "It's a practice project to practice MERN stack development!",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RafiaZ/bakery-management-system.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RafiaZ/bakery-management-system.github.io/issues"
+  },
+  "homepage": "https://github.com/RafiaZ/bakery-management-system.github.io#readme"
 }

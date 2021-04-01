@@ -10,8 +10,10 @@ const BakeryList = (props) => {
   }
 
   return (
+    <div>
+       <h1 className="header">Bakery Items</h1>
     <ul className="list">
-      <h1>Bakery Items</h1>
+      
       {props.items.map((item) => (
         <BakeryItems
           key={item.id}
@@ -23,7 +25,8 @@ const BakeryList = (props) => {
         />
       ))}
     </ul>
-  );
+    </div>
+  )
 };
 
 export default BakeryList;
