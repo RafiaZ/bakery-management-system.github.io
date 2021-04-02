@@ -3,14 +3,14 @@ import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-d
 import Item from './items/pages/Item';
 import './index.css';
 
-import Users from './user/pages/Users';
+import FrontPage from './user/pages/FrontPage';
 
 const  App =()=> {
  return <div className="background">
      <Router>
    <Switch>
    <Route path="/" exact>
-       <Users/>
+       <FrontPage />
    </Route>
    <Route path="/Item/new" exact>
       <Item/>
