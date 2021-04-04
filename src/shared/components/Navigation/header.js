@@ -1,6 +1,12 @@
 import React from 'react';
 
-const Header = () =>{
+import './Header.css';
+
+const Header = props =>{
+
+    <header>
+        {props.children}
+    </header>
 
 }
 
