@@ -1,0 +1,35 @@
+.front-page{
+
+
+    height: 100vh;
+    background-image: linear-gradient(to right bottom, rgba(167, 117, 42, 0.8), rgba(163, 139, 104, 0.8)), url(../layout/bakery.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    
+   
+   
+}
+
+.header {
+    
+    align-items: center;
+    overflow: hidden;
+    margin: 5%;
+   
+}
+
+.main-header {
+   
+    margin: 0;
+    color: black;
+    font-size: 5rem;
+    letter-spacing: 3rem;
+ 
+}
+
+a {
+    text-decoration: none;
+}

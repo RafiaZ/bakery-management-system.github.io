@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-d
 import Item from './items/pages/Item';
 import './index.css';
 
-import FrontPage from './user/pages/FrontPage';
+import FrontPage from './layout/FrontPage';
 
 const  App =()=> {
  return <div className="background">
@@ -12,7 +12,7 @@ const  App =()=> {
    <Route path="/" exact>
        <FrontPage />
    </Route>
-   <Route path="/Item/new" exact>
+   <Route path="/Items" exact>
       <Item/>
    </Route>
    <Redirect to="/"/>

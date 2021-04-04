@@ -12,9 +12,9 @@ const BakeryItems = (props) => {
         <div className='product-name'>
         <h1>{props.name}</h1>
         </div>
-        <div className="price">
-        <h3>Price {props.price} PKR</h3>
-        </div>
+        
+        <h3 className="price">Price {props.price} PKR</h3>
+      
         
         <div className="count">
           {props.itemCount} {props.itemCount === 1 ? "total" : "total items"}
