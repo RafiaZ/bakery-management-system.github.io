@@ -1,7 +1,7 @@
 .main-header__button{
     width: 3rem;
     height: 3rem;
-    display: flex;
+    display: none;
     flex-direction: column;
     background: transparent;
     border: none;
@@ -18,4 +18,27 @@
     background: white;
     /* display: block; */
     
+}
+
+.main-header__logo a {
+    display: flex;
+    color: black;
+    margin-left: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+
+@media screen and (max-width: 670px){
+    .main-header__button{
+        width: 3rem;
+        height: 3rem;
+        display: flex;
+        flex-direction: column;
+        background: transparent;
+        border: none;
+        justify-content: space-around;
+        cursor: pointer;
+        
+    
+    }
 }

@@ -11,7 +11,7 @@ const BakeryList = (props) => {
 
   return (
     <div>
-       <h1 className="header">Bakery Items</h1>
+       {/* <h1 className="header">Bakery Items</h1> */}
     <ul className="list">
       
       {props.items.map((item) => (
