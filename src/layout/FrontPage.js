@@ -11,7 +11,7 @@ const FrontPage = () =>{
  return (
      <NavLink to="/Items">
      <div className="front-page">
-         <div className="header" >
+         <div className="header-front-page" >
          <h1 className="main-header">THE BAKERY</h1>
          </div>
         

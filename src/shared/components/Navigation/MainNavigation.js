@@ -12,7 +12,7 @@ const MainNavigation = props =>{
              <span />
          </button>
          <h1 className="main-header__logo">
-             <Link>The Bakery</Link>
+             <Link>The bakery</Link>
          </h1>
          <nav >
              ...
