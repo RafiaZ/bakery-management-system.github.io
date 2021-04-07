@@ -1,0 +1,21 @@
+.main-header__button{
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    border: none;
+    justify-content: space-around;
+    cursor: pointer;
+    
+
+}
+
+.main-header__button span{
+
+    width: 3rem;
+    height: 2.5px;
+    background: white;
+    /* display: block; */
+    
+}

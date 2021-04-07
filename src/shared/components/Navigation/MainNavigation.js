@@ -6,15 +6,15 @@ import './MainNavigation.css';
 
 const MainNavigation = props =>{
      return <Header>
-         <button>
+         <button className="main-header__button">
              <span />
              <span />
              <span />
          </button>
-         <h1>
+         <h1 className="main-header__logo">
              <Link>The Bakery</Link>
          </h1>
-         <nav>
+         <nav >
              ...
          </nav>
      </Header>
