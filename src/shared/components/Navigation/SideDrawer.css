@@ -1,0 +1,9 @@
+.side-drawer__navlinks{
+    position: fixed;
+    background: white;
+    z-index: 99;
+    height: 100vh;
+    width: 70%;
+    top: 0;
+    position: fixed;
+}
