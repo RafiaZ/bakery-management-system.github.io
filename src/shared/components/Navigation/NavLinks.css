@@ -2,6 +2,20 @@
 
     display: grid;
     grid-auto-flow: column;
-    grid-template-columns: repeat(3, minmax(100px, 1fr));
-    grid-gap: 8px;
+    grid-template-columns: repeat(3, minmax(80px, 1fr));
+    grid-gap: 3px;
+    list-style: none;
+    color: black;
+    justify-content: end;
+    margin-left: 200px;
+    
+}
+
+.navbar-links li a{
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    text-decoration: black underline;
+   
+    
 }
