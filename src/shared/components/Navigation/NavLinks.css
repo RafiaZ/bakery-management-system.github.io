@@ -1,0 +1,7 @@
+.navbar-links{
+
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
+    grid-gap: 8px;
+}
