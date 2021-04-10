@@ -8,18 +8,16 @@ import Header from "./Header";
 import "./MainNavigation.css";
 
 const MainNavigation = (props) => {
-  const [DrawerIsOpen, setDrawerIsOpen] = useState(flase);
 
-  setDrawerIsOpen=()=>{
-    useState(true);
-  }
+
+
   return (
     <React.Fragment>
       <SideDrawer>
           <nav className="main-navigation__drawer-nav"><NavLinks/></nav>
       </SideDrawer>
       <Header>
-        <button className="main-header__button" onClick={setDrawerIsOpen}>
+        <button className="main-header__button">
           <span />
           <span />
           <span />
