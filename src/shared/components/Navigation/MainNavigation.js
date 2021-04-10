@@ -1,4 +1,4 @@
-import {React, useState} from "react";
+import React, {useState} from "react";
 import { Link } from "react-router-dom";
 import SideDrawer from "./SideDrawer";
 import NavLinks from "../Navigation/NavLinks";
